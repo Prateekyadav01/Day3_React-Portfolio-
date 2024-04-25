@@ -6,7 +6,8 @@ const Profile = () => {
             <div class="mb-8 rounded-full w-32 h-32 ring ring-primary ring-offset-base-100 ring-offset-2">
                 <img src="" alt="Prateek Yadav"/></div>
             <h1 className='font-bold text-2xl text-base-content opacity-70'>Prateek Yadav</h1>
-            <div className="mt-3 text-base-content text-opacity-60 font-mono  ">⚡ Senior Software Engineer | Open Source Enthusiast | PHP | Node.js | React ⚡</div>
+            <div className="mt-3 text-base-content text-opacity-60 font-mono  ">⚡ Software Engineer | Open Source Enthusiast | PHP | Node.js | React ⚡</div>
+            <h3>Download Resume</h3>
         </div>
     )
 }

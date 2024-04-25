@@ -9,7 +9,7 @@ const Theme = () => {
     };
 
     return (
-        <div className='flex justify-around w-[70%] rounded-lg items-center mb-3 mt-7 p-2 bg-white'>
+        <div className='flex justify-around w-[80%] rounded-lg items-center mb-3 mt-7 p-2 bg-white'>
             <div>
                 <h3 className='text-xl'>Theme</h3>
                 <span className='font-light text-sm'>{theme}</span>

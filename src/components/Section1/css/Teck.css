@@ -1,0 +1,8 @@
+.badge-primary {
+    --tw-border-opacity: 1;
+    border-color: #f2f4f5; /* Converted from --p */
+    --tw-bg-opacity: 1;
+    background-color: #1d1e1e; /* Converted from --p */
+    --tw-text-opacity: 1;
+    color: white; /* Default color, as --pc is not defined */
+}
