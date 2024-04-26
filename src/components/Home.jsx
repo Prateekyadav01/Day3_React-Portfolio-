@@ -4,7 +4,7 @@ import Section2 from './Section2'
 
 const Home = () => {
   return (
-    <div className='bg-gray-100 flex'>
+    <div className='bg-gray-100 flex justify-evenly'>
       <Section1/>
       <Section2/>
     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
+import Part from './Section2/Part'
 
 const Section2 = () => {
   return (
-    <div>
-      Section2
+    <div className='w-[60%]  '>
+      <Part/>
     </div>
   )
 }

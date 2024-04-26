@@ -1,0 +1,30 @@
+.card.compact .card-body {
+    padding: 1rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.card-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: var(--padding-card, 2rem);
+    gap: .5rem;
+    background-color: rgb(230, 228, 228);
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-top: 22px;
+    flex-wrap: wrap;
+}
+* {
+    scrollbar-width: thin;
+}
+
+*, :before, :after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}

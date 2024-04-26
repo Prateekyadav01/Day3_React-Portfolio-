@@ -8,7 +8,7 @@ import Experience from './Section1/Experience';
 
 const Section1 = () => {
   return (
-   <div className='w-[40%] items-center flex flex-col gap-2 border border-solid border-red-500'>
+   <div className='w-[40%] items-center flex flex-col gap-2 '>
       <Theme/>
       <Profile/>
       <Based/>
