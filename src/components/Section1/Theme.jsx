@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { setThemeData } from '../../utils/themeSlice';
 
 const Theme = () => {
     const [theme, setTheme] = useState("");
+    const dispatch = useDispatch();
 
     const handleTheme = (e) => {
         setTheme(e.target.value);
+        dispatch(setThemeData(e.target.value));
         console.log(e.target.value);
     };
+    // const themeSlice = useSelector((store) => store.theme);
+    // console.log(themeSlice);
 
     return (
         <div className='flex justify-around w-[80%] rounded-lg items-center mb-3 mt-7 p-2 bg-white'>
