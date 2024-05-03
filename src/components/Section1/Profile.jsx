@@ -21,7 +21,7 @@ const Profile = () => {
       </div>
       <h1 className={nameClass}>Prateek Yadav</h1>
       <div className={descriptionClass}>
-        ⚡ Software Engineer | Open Source Enthusiast | PHP | Node.js | React ⚡
+      ⚡ Software Engineer | | Full Stack Developer|Express.js | Node.js | React ⚡
       </div>
       <a
         href="/path-to-your-resume"
