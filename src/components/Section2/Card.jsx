@@ -70,7 +70,7 @@ const Card = ({ data, key }) => {
                 className="w-3 h-3 rounded-full mr-1 opacity-60"
                 style={{ backgroundColor: 'rgb(43, 116, 137)' }}
               ></div>
-              <span>{data.languag}</span>
+              <span >{data.language}</span>
             </span>
           </div>
         </div>
